@@ -1,0 +1,37 @@
+.production {
+    &__items {
+        display: flex;
+        gap: 30px;
+    }
+    &__item {
+        &-img {
+            background:#EBEBEB;
+            display: flex;
+            min-height: 180px;
+            align-items: center;
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+    &__title {
+        padding-top: 20px;
+        color: #666;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__subtitle{
+        padding-top: 8px;
+        color: #B5B5BD;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__text {
+        padding-top: 8px;
+    }
+    &__link {
+        padding-top: 20px;
+    }
+}

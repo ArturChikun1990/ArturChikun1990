@@ -1,0 +1,33 @@
+.sketchbook {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 90px 165px 0 165px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__items {
+        margin-top: 24px;
+        max-width: 350px;
+    }
+    &__text {
+        margin-top: 8px;
+    }
+    &__btn {
+        margin: 30px 95px 0 0;
+        display: block;
+        width: 255px;
+        height: 70px;
+        padding: 20px 50px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #7875FE;
+        a {
+            text-decoration: none;
+        }
+    }
+    &__img {
+        height: 100%;
+    }
+}

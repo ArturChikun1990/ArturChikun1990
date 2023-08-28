@@ -1,0 +1,15 @@
+.partners {
+    background: #EBEBEB;
+    &__items {
+        display: grid;
+        grid-template: minmax(135px, auto) / repeat(auto-fit, minmax(255px, 1fr));
+        gap: 30px;
+        grid-auto-rows: minmax(135px, auto);
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #C4C4C4;
+    }
+}

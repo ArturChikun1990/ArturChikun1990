@@ -1,0 +1,293 @@
+@media (max-width: 1200px) {
+    .header {
+        max-width: 1200px;
+        padding: 11px 35px 20px 39px;
+    }
+    .promo {
+        padding: 0 120px;
+    }
+    .container {
+        padding: 60px 120px 0 120px;
+    }
+    .results {
+        &__dividers {
+            gap: 30px;
+        }
+        &__divider {
+            width:100%;
+        }
+        &__footer  {
+            gap: 0;
+        }
+        &__item-img {
+            max-width: 50%;
+            img {
+                object-fit: contain;
+            }
+        }
+        &__footer-descr {
+            max-width: 50%;
+        }
+        &__footer-title {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        max-width: 992px;
+        &__list {
+            position: relative;
+            justify-content: space-between;
+            top: 54px;
+        }
+        &__label {
+            position: absolute;
+            top: -54px;
+        }
+        &__forms {
+            position: absolute;
+            right: 0;
+            top: -54px;
+        }
+    }
+    .promo {
+        padding: 65px 39px 0 39px;
+        &__desktop {
+            display: none;
+        }
+        &__tablet-690 {
+            display: block;
+        }
+    }
+    .container {
+        padding: 65px 39px 0 39px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 60px 39px 0 39px;
+    }
+    .header {
+        max-width: 768px;
+        &__list {
+            position: relative;
+            justify-content: space-between;
+            top: 54px;
+            gap: 9%;
+        }
+        &__label {
+            position: absolute;
+            top: -54px;
+        }
+        &__forms {
+            position: absolute;
+            right: 0;
+            top: -54px;
+        }
+    }
+    .promo {
+        max-width: 768px;
+        padding: 60px 39px 0 39px;
+        &__wrapper {
+            gap: 30px;
+        }
+        &__descr {
+            margin-top: 5px;
+            width: 390px;
+        }
+        &__title{
+            font-size: 50px;
+            line-height: 50px;
+        }
+        &__desktop {
+            display: none;
+        }
+        &__tablet-690 {
+            display: block;
+        }
+        &__tablet-510 {
+            display: none;
+        }
+    }
+    .results {
+        &__item {
+            flex-direction: column;
+            gap: 27px;
+        }
+        &__item-img {
+            max-width: 100%;
+            margin-right: 50px;
+        }
+        &__footer-text {
+            p {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 60px 33px 0 33px;
+    }
+    .header {
+        max-width: 576px;
+        height: 75px;
+        padding: 11px 33px 18px 33px;
+        &__list {
+            position: relative;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            top: 54px;
+            gap: 10%;
+        }
+        &__label {
+            position: absolute;
+            top: -54px;
+        }
+        &__forms {
+            position: absolute;
+            right: 0;
+            top: -54px;
+        }
+    }
+    .promo {
+        max-width: 576px;
+        padding: 20px 33px 0 32px; 
+        &__descr {
+            margin-top: 60px;
+            max-width: 287px;
+        }
+        &__photo {
+            img {
+                width: 100%;
+            }
+        }
+        &__title{
+            font-size: 38px;
+            line-height: 38px;
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__btn {
+            margin-top: 20px;
+            margin-bottom: 60px;
+            width: 196px;
+            height: 60px;
+        }
+        &__desktop {
+            display: none;
+        }
+        &__tablet-690 {
+            display: none;
+        }
+        &__tablet-510 {
+            display: none;
+        }
+    }
+    .results {
+        &__item {
+            flex-direction: row;
+        }
+        &__item-img {
+            margin-right: 0;
+            width: 65%;
+        }
+        &__title {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__footer {
+            padding-top: 60px;
+            flex-direction: column;
+        }
+        &__footer-img {
+            width: 100%;
+        }
+        &__footer-descr {
+            margin-top: 20px;
+            display: block;
+            max-width: 100%;
+        }
+        &__footer-title {
+            display: block;
+            font-size: 24px;
+            line-height: 24px;
+            br {
+                display: none;
+            }
+        }
+        &__footer-text {
+            margin-top: 14px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 60px 15px 0 15px;
+    }
+    .header {
+        max-width: 320px;
+        height: 79px;
+        padding: 11px 0 15px 0;
+        &__label {
+            position: absolute;
+            top: -54px;
+            left: 90px;
+            right: 90px;
+        }
+        &__item {
+            display: none;
+        }
+        &__forms {
+            position: absolute;
+            top: -4px;
+            right: 15px;
+        }
+        .hamburger {
+            display: flex;
+        }
+    }
+    .promo {
+        max-width: 320px;
+        padding: 64px 16px 49px 16px; 
+        &__descr {
+            margin-top: 0;
+        }
+        &__title{
+            font-size: 30px;
+            line-height: 30px;
+        }
+        &__text {
+            margin-top: 15px;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &__btn {
+            margin-top: 20px;
+            margin-bottom: 0;
+            width: 144px;
+            height: 50px;
+        }
+        &__desktop {
+            display: none;
+        }
+        &__tablet-690 {
+            display: none;
+        }
+        &__tablet-510 {
+            display: none;
+        }
+    }
+}
